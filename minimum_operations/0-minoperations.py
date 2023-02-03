@@ -5,7 +5,7 @@
 
 def minOperations(n):
     # Return 0 if n is less than or equal to 0
-    if n <= 2:
+    if n <= 1:
         return 0
     
     operations = 0 # Initialize the number of operations to 0
