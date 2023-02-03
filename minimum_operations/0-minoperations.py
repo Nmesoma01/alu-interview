@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-"""minimum operations file"""
+"""minimum Operations"""
 
 
 def minOperations(n):
-    """Return 0 if n is less than or equal to 0"""
+    """Returns an integer
+    If n is impossible to achieve, return 0"""
+
     if not n or n < 2:
         return 0
     numberOperations = 0
